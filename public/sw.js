@@ -1,12 +1,5 @@
 const CACHE_NAME = "expense-tracker-v1"
-const urlsToCache = [
-  "/",
-  "/manifest.json",
-  "/icons/favicon.ico",
-  "/icons/apple-touch-icon.png",
-  "/icons/android-chrome-192x192.png",
-  "/icons/android-chrome-512x512.png",
-]
+const urlsToCache = ["/", "/manifest.json", "/favicon.ico"]
 
 // Install service worker and cache static assets
 self.addEventListener("install", (event) => {

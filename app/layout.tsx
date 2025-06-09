@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Expense Tracker",
+  title: "Useless Expense Tracker",
   description: "Track your expenses and export to Excel",
   manifest: "/manifest.json",
   themeColor: "#000000",
@@ -14,7 +14,7 @@ export const metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Expense Tracker",
+    title: "Useless Expense Tracker",
   },
     generator: 'v0.dev'
 }
@@ -28,7 +28,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/ios/180.png" />
+        <meta name="msapplication-TileImage" content="/windows11/Square150x150Logo.scale-100.png" />
         <meta name="msapplication-TileColor" content="#000000" />
       </head>
       <body className={inter.className}>

@@ -265,9 +265,9 @@ export default function ExpenseTracker() {
         <div className={`text-center ${isLoaded ? "animate-fade-in-down" : "opacity-0"}`}>
           <h1 className="text-3xl font-bold text-black mb-2 flex items-center justify-center gap-3">
             <Receipt className="w-8 h-8" />
-            Expense Tracker
+            Useless Expense Tracker
           </h1>
-          <p className="text-gray-600">Track your expenses and export to Excel</p>
+          <p className="text-gray-600">by yours truly, Muhmmnad Daud Nasir</p>
         </div>
 
         {/* Add Expense Form */}
